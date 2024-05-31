@@ -7,7 +7,7 @@ spawn ssh -o StrictHostKeyChecking=no $SERVER_USERNAME@$SERVER_IP
 expect "password: "
 send "$SERVER_PASSWORD\r"
 expect "$ "
-send "cd ../smarthatch/ecom-full-crm-super-admin\r"
+send "cd $FOLDER2\r"
 expect "$ "
 send "git pull\r"
 expect "Username for 'https://gitlab.com: "

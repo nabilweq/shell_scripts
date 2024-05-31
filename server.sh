@@ -8,7 +8,7 @@ expect "password: "
 send "$SERVER_PASSWORD\r"
 expect "$ "
 # send "cd ../smarthatch$user_input\r"
-send "cd ../smarthatch/ecom-full-crm\r"
+send "cd $FOLDER1\r"
 # expect "$ "
 # send "exit\r"
 
