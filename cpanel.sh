@@ -1,6 +1,6 @@
-set CPANEL_FOLDER $env(CPANEL_FOLDER)
-set CPANEL_IP_ADDRESS $env(CPANEL_IP_ADDRESS)
-set CPANEL_USERNAME $env(CPANEL_USERNAME)
+CPANEL_FOLDER=${CPANEL_FOLDER}
+CPANEL_IP_ADDRESS=${CPANEL_IP_ADDRESS}
+CPANEL_USERNAME=${CPANEL_USERNAME}
 # puts "###################################-Please enter the port you want to restart:"
 # expect_user -re "(.*)\n"
 # set user_input $expect_out(1,string)

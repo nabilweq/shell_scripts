@@ -1,6 +1,6 @@
-set PEM_FILE_PATH $env(PEM_FILE_PATH)
-set AWS_USER $env(AWS_USER)
-set AWS_IP $env(AWS_IP)
+PEM_FILE_PATH=${PEM_FILE_PATH}
+AWS_USER=${AWS_USER}
+AWS_IP=${AWS_IP}
 
 # Get user input
 puts "###################################-Please enter the path you want to add:"

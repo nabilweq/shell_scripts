@@ -1,7 +1,7 @@
-set SERVER_USERNAME $env(SERVER_USERNAME)
-set SERVER_IP $env(SERVER_IP)
-set SERVER_PASSWORD $env(SERVER_PASSWORD)
-set FOLDER1 $env(FOLDER1)
+SERVER_USERNAME=${SERVER_USERNAME}
+SERVER_IP=${SERVER_IP}
+SERVER_PASSWORD=${SERVER_PASSWORD}
+FOLDER1=${FOLDER1}
 
 # puts "###################################-Please enter the path you want to add:"
 # expect_user -re "(.*)\n"
